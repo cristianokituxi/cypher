@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de Cesar</title>
+    <link href="mensagem oculta.css" rel="stylesheet " />
+    <script src="mensagem oculta.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Cifra de Cesar/base64</h1>
+        <select name="select" id="select">
+            <option value="base 64">base 64</option>
+            <option onClick="cifrar" value="cifra de cesar" id="cifrar"> cifra de cesar</option>
+        </select>
+        <form id="cifrador" autocomplete="off">
+            <input type="radio" name="cifrar" id="cifrar"><label>codificar</label>
+            <input type="radio" name="cifrar" id="cifrar"><label>descodificar</label>
+            <input id="input-original" spellcheck="false" placeholder="ensira o texto" type="text" name="text">
+        </form>
+        <div id="resultado"></div>
+        <div class="classificacao">
+            <input id="classificacao" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+            <output>10</output>
+        </div>
+    </main>
+</body>
+</html>
