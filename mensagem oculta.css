@@ -14,8 +14,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:brown;
-    background-image: url("cifra.jpeg");
+    color:greenyellow;
+    /* background-image: url("cifra.jpeg"); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -43,14 +43,14 @@ h1 {
 #input-original {
     margin: 10px 0 0;
     padding: 10px;
-    color: whitesmoke;
+    color:greenyellow;
     border-top-left-radius: var(--borde-redondo);
     border-top-right-radius: var(--borde-redondo);
 }
 
 #resultado {
-    height: 20px;
-    color:brown;
+    height: 40px;
+    color:greenyellow;
     padding: 0 10px 10px;
     border-bottom-left-radius: var(--borde-redondo);
     border-bottom-right-radius: var(--borde-redondo);
@@ -76,11 +76,11 @@ input[type='range'] {
 input[type='range']::-webkit-slider-thumb {
     cursor: pointer;
     -webkit-appearance: none;
-    background: brown;
+    background: whitesmoke;
     border-radius: 50%;
     height:10px;
     width:10px;
 }
 select{
-    color: brown;
+    color: greenyellow;
 }
